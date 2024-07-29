@@ -39,7 +39,7 @@ function EigthBlock() {
 						variants={imageVariants}
 					>
 						<img
-							src='/public/assets/eigthBlock.jpg'
+							src='/assets/eigthBlock.jpg'
 							alt='404'
 							className='w-full px-[10px] md:px-0'
 						/>
@@ -128,7 +128,7 @@ function EigthBlock() {
 						</div>
 					</motion.div>
 					<img
-						src='/public/assets/kids_club.png'
+						src='/assets/kids_club.png'
 						alt='kids_club'
 						className='absolute w-[150px] right-0 bottom-0'
 					/>

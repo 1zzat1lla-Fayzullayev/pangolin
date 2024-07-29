@@ -28,7 +28,7 @@ function SixthBlock() {
 				ref={ref}
 			>
 				<motion.img
-					src='/public/assets/sixthBlock.jpg'
+					src='/assets/sixthBlock.jpg'
 					alt='404'
 					className='w-full h-auto'
 					initial='hidden'
@@ -36,7 +36,7 @@ function SixthBlock() {
 					variants={imageVariants}
 				/>
 				<motion.img
-					src='/public/assets/sixthBlock_logo.png'
+					src='/assets/sixthBlock_logo.png'
 					alt='404'
 					className='absolute min-[320px]:top-[50px] min-[320px]:right-[50px] min-[350px]:top-[60px] min-[350px]:right-[70px] min-[400px]:top-[80px] min-[400px]:right-[90px] sm:top-[80px] w-[100px] sm:right-[100px] sm:w-[300px] md:top-[120px] lg:top-[150px] md:right-[130px] md:w-[250px] lg:w-[400px] xl:w-[500px] lg:right-32'
 					initial='hidden'

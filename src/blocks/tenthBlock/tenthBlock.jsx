@@ -28,7 +28,7 @@ function TenthBlock() {
 				ref={ref}
 			>
 				<motion.img
-					src='/public/assets/tenthBlock.jpg'
+					src='/assets/tenthBlock.jpg'
 					alt='404'
 					className='w-full h-auto'
 					initial='hidden'
@@ -36,7 +36,7 @@ function TenthBlock() {
 					variants={imageVariants}
 				/>
 				<motion.img
-					src='/public/assets/tenthBlock_logo.png'
+					src='/assets/tenthBlock_logo.png'
 					alt='404'
 					className='absolute min-[320px]:top-[30px] min-[320px]:right-[55px] min-[350px]:top-[50px] min-[350px]:right-[80px] min-[400px]:top-[60px] min-[400px]:right-[90px] sm:top-[80px] w-[100px] sm:right-[100px] sm:w-[300px] md:top-[80px] lg:top-[120px] md:right-[150px] md:w-[250px] lg:w-[400px] xl:w-[500px] xl:top-[80px] xl:right-[170px] lg:right-[200px]'
 					initial='hidden'

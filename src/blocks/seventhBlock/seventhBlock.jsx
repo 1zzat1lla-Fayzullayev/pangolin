@@ -39,7 +39,7 @@ function SeventhBlock() {
 						animate={controls}
 						variants={textVariants}
 					>
-						<img src='/public/assets/kids_logo.png' alt='logo' />
+						<img src='/assets/kids_logo.png' alt='logo' />
 						<p className='text-[18px]'>
 							We are building an experience hotel for families with kids –
 							spacious villas with the high-class service in Uluwatu.
@@ -57,7 +57,7 @@ function SeventhBlock() {
 						variants={imageVariants}
 					>
 						<img
-							src='/public/assets/seventhBlock.jpg'
+							src='/assets/seventhBlock.jpg'
 							alt='404'
 							className='w-full px-[10px] md:px-0'
 						/>

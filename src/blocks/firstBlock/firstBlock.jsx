@@ -51,7 +51,7 @@ function FirstBlock() {
 					variants={textVariants}
 				>
 					<img
-						src='/public/assets/logo.png'
+						src='/assets/logo.png'
 						alt='logo'
 						className='max-w-full w-full md:w-[550px] mb-8 md:mb-0'
 					/>

@@ -65,7 +65,7 @@ function FourthBlock() {
 						variants={imageVariants}
 					>
 						<img
-							src='/public/assets/fourthBlock.jpg'
+							src='/assets/fourthBlock.jpg'
 							alt='404'
 							className='w-full px-[10px] md:px-0'
 						/>

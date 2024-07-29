@@ -58,7 +58,7 @@ const EleventhBlock = () => {
 				<div>
 					<div className='flex flex-wrap justify-center items-center gap-[10px] mt-[50px]'>
 						<motion.img
-							src='/public/assets/eleventh_1.jpg'
+							src='/assets/eleventh_1.jpg'
 							alt='404'
 							className='object-cover w-full md:w-[350px] md:h-[200px]'
 							initial='hidden'
@@ -66,7 +66,7 @@ const EleventhBlock = () => {
 							variants={imageVariants}
 						/>
 						<motion.img
-							src='/public/assets/eleventh_2.jpg'
+							src='/assets/eleventh_2.jpg'
 							alt='404'
 							className='object-cover w-full md:w-[200px] md:h-[200px]'
 							initial='hidden'
@@ -74,7 +74,7 @@ const EleventhBlock = () => {
 							variants={imageVariants}
 						/>
 						<motion.img
-							src='/public/assets/eleventh_3.jpg'
+							src='/assets/eleventh_3.jpg'
 							alt='404'
 							className='object-cover w-full md:w-[350px] md:h-[200px]'
 							initial='hidden'

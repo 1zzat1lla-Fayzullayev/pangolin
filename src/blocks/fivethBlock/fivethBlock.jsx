@@ -39,7 +39,7 @@ function FivethBlock() {
 						variants={imageVariants}
 					>
 						<img
-							src='/public/assets/fivethBlock.jpg'
+							src='/assets/fivethBlock.jpg'
 							alt='404'
 							className='w-full px-[10px] md:px-0'
 						/>

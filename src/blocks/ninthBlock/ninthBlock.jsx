@@ -48,7 +48,7 @@ function NinthBlock() {
                             </p>
                         </div>
                         <motion.img
-                            src='/public/assets/ninth_1.jpg'
+                            src='/assets/ninth_1.jpg'
                             alt='404'
                             className='w-[70px] md:w-[100px]'
                             initial='hidden'
@@ -59,7 +59,7 @@ function NinthBlock() {
 
                     <div className='flex items-center gap-[20px]'>
                         <motion.img
-                            src='/public/assets/ninth_2.jpg'
+                            src='/assets/ninth_2.jpg'
                             alt='404'
                             className='w-[70px] md:w-[100px]'
                             initial='hidden'
@@ -107,7 +107,7 @@ function NinthBlock() {
                             </p>
                         </div>
                         <motion.img
-                            src='/public/assets/ninth_3.jpg'
+                            src='/assets/ninth_3.jpg'
                             alt='404'
                             className='w-[70px] md:w-[100px]'
                             initial='hidden'
@@ -118,7 +118,7 @@ function NinthBlock() {
 
                     <div className='flex items-center gap-[20px]'>
                         <motion.img
-                            src='/public/assets/ninth_4.jpg'
+                            src='/assets/ninth_4.jpg'
                             alt='404'
                             className='w-[70px] md:w-[100px]'
                             initial='hidden'

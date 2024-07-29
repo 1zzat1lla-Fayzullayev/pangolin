@@ -27,7 +27,7 @@ const TwelfthBlock = () => {
 			<div className='mx-[20px] xl:mx-0'>
 				<div className='flex flex-col md:flex-row font-Poppins md:items-center md:gap-[10px] mt-[200px]'>
 					<motion.img
-						src='/public/assets/kids_club.png'
+						src='/assets/kids_club.png'
 						alt='logo'
 						className='w-[250px]'
 						initial='hidden'
@@ -67,14 +67,14 @@ const TwelfthBlock = () => {
 						</div>
 						<div className='flex flex-col sm:flex-row items-center gap-[20px] relative mt-[60px] md:hidden'>
 							<motion.img
-								src='/public/assets/twelfth_1.png'
+								src='/assets/twelfth_1.png'
 								alt=''
 								initial='hidden'
 								whileInView='visible'
 								variants={imageVariants}
 							/>
 							<motion.img
-								src='/public/assets/twelfth_2.jpg'
+								src='/assets/twelfth_2.jpg'
 								alt=''
 								initial='hidden'
 								whileInView='visible'
@@ -83,7 +83,7 @@ const TwelfthBlock = () => {
 						</div>
 						<div>
 							<motion.img
-								src='/public/assets/twelfth_zapas.png'
+								src='/assets/twelfth_zapas.png'
 								alt='404'
 								className='w-full mt-[50px] hidden md:block'
 								initial='hidden'
@@ -94,7 +94,7 @@ const TwelfthBlock = () => {
 					</div>
 					<div>
 						<motion.img
-							src='/public/assets/twelfth_3.png'
+							src='/assets/twelfth_3.png'
 							alt='404'
 							className='w-full'
 							initial='hidden'
