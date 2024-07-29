@@ -39,7 +39,7 @@ const EleventhBlock = () => {
 					whileInView='visible'
 					variants={headingVariants}
 				>
-					<h2 className='text-[40px] font-extralight tracking-[7px]'>
+					<h2 className='text-[25px] md:text-[40px] font-extralight tracking-[7px]'>
 						KIDS FRIENDLY SPACE
 					</h2>
 				</motion.div>
@@ -60,7 +60,7 @@ const EleventhBlock = () => {
 						<motion.img
 							src='/assets/eleventh_1.jpg'
 							alt='404'
-							className='object-cover w-full md:w-[350px] md:h-[200px]'
+							className='object-cover w-full h-[300px] md:w-[350px] md:h-[200px]'
 							initial='hidden'
 							whileInView='visible'
 							variants={imageVariants}
@@ -68,7 +68,7 @@ const EleventhBlock = () => {
 						<motion.img
 							src='/assets/eleventh_2.jpg'
 							alt='404'
-							className='object-cover w-full md:w-[200px] md:h-[200px]'
+							className='object-cover w-full h-[300px] md:w-[200px] md:h-[200px]'
 							initial='hidden'
 							whileInView='visible'
 							variants={imageVariants}
@@ -76,7 +76,7 @@ const EleventhBlock = () => {
 						<motion.img
 							src='/assets/eleventh_3.jpg'
 							alt='404'
-							className='object-cover w-full md:w-[350px] md:h-[200px]'
+							className='object-cover w-full h-[300px] md:w-[350px] md:h-[200px]'
 							initial='hidden'
 							whileInView='visible'
 							variants={imageVariants}

@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import Wrapper from '../../layout/wrapper'
 
-const TwelfthBlock = () => {
+const FourteenthBlock = () => {
 	// Define animation variants
 	const imageVariants = {
 		hidden: { opacity: 0, scale: 0.9 },
@@ -36,25 +36,25 @@ const TwelfthBlock = () => {
 					/>
 					<div className='md:border-l md:border-l-black md:pl-[30px]'>
 						<motion.h2
-							className='uppercase text-[25px] md:text-[30px] font-extralight text-lightBlue'
+							className='uppercase text-[25px] md:text-[30px] font-extralight text-pink'
 							initial='hidden'
 							whileInView='visible'
 							variants={textVariants}
 						>
-							GROUND FLOOR
+							1st FLOOR
 						</motion.h2>
 					</div>
 				</div>
-				<div className='flex flex-col md:flex-row items-center'>
+				<div className='flex flex-col gap-[20px] md:gap-[50px] md:flex-row items-center'>
 					<div>
 						<div>
 							<motion.h2
-								className='text-lightBlue text-[20px]'
+								className='text-pink text-[20px]'
 								initial='hidden'
 								whileInView='visible'
 								variants={textVariants}
 							>
-								ACTIVE SPACE
+								QUIET SPACE
 							</motion.h2>
 							<motion.p
 								className='max-w-[230px] text-[19px]'
@@ -62,32 +62,15 @@ const TwelfthBlock = () => {
 								whileInView='visible'
 								variants={textVariants}
 							>
-								Reception & lobby & shop Active games Stage for performances
+								Creative master-classes Board games Library
 							</motion.p>
 						</div>
-						<div className='flex flex-col sm:flex-row items-center gap-[20px] relative mt-[60px] md:hidden'>
-							<motion.img
-								src='/assets/twelfth_1.png'
-								alt=''
-								initial='hidden'
-								whileInView='visible'
-								variants={imageVariants}
-								className='w-full'
-							/>
-							<motion.img
-								src='/assets/twelfth_2.jpg'
-								alt=''
-								initial='hidden'
-								whileInView='visible'
-								variants={imageVariants}
-								className='w-full'
-							/>
-						</div>
+
 						<div>
 							<motion.img
-								src='/assets/twelfth_zapas.png'
+								src='/assets/fourteenth_2.png'
 								alt='404'
-								className='w-full mt-[50px] hidden md:block'
+								className='w-full mt-[50px]'
 								initial='hidden'
 								whileInView='visible'
 								variants={imageVariants}
@@ -96,7 +79,7 @@ const TwelfthBlock = () => {
 					</div>
 					<div>
 						<motion.img
-							src='/assets/twelfth_3.png'
+							src='/assets/fourteenth_1.png'
 							alt='404'
 							className='w-full'
 							initial='hidden'
@@ -110,4 +93,4 @@ const TwelfthBlock = () => {
 	)
 }
 
-export default TwelfthBlock
+export default FourteenthBlock

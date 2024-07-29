@@ -11,6 +11,13 @@ import NinthBlock from './blocks/ninthBlock/ninthBlock'
 import TenthBlock from './blocks/tenthBlock/tenthBlock'
 import EleventhBlock from './blocks/eleventhBlock/eleventhBlock'
 import TwelfthBlock from './blocks/twelfthBlock/twelfthBlock'
+import ThirteenthBlock from './blocks/thirteenthBlock/thirteenthBlock'
+import FourteenthBlock from './blocks/fourteenthBlock/fourteenthBlock'
+import FiveteenthBlock from './blocks/fiveteenthBlock/fiveteenthBlock'
+import SixteenthBlock from './blocks/sixteenthBlock/sixteenthBlock'
+import SeventeenthBlock from './blocks/seventeenthBlock/seventeenthBlock'
+import EighteenthBlock from './blocks/eighteenthBlock/eighteenthBlock'
+import NinteenthBlock from './blocks/ninteenthBlock/ninteenthBlock'
 
 function App() {
 	return (
@@ -27,6 +34,13 @@ function App() {
 			<TenthBlock />
 			<EleventhBlock />
 			<TwelfthBlock />
+			<ThirteenthBlock />
+			<FourteenthBlock />
+			<FiveteenthBlock />
+			<SixteenthBlock />
+			<SeventeenthBlock />
+			<EighteenthBlock />
+			<NinteenthBlock />
 		</>
 	)
 }
