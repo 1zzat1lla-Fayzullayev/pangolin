@@ -81,8 +81,8 @@ function NinthBlock() {
                         </div>
                     </div>
                 </motion.div>
-                <div className='flex justify-center my-[30px] lg:my-0 items-center'>
-                    <h2 className='text-[25px] md:leading-[50px] leading-[35px] md:text-[40px] lg:text-[50px] max-w-[300px] text-center font-extralight tracking-[8px] lg:leading-[55px] p-5'>
+                <div className='flex my-[30px] lg:my-0'>
+                    <h2 className='text-[25px] md:leading-[50px] leading-[35px] md:text-[40px] lg:text-[50px] max-w-[300px] text-start font-extralight tracking-[8px] lg:leading-[55px] md:p-5'>
                         UNIQUE FEATURES{' '}
                     </h2>
                 </div>

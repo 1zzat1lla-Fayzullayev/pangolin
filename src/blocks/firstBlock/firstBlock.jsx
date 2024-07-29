@@ -6,8 +6,8 @@ import Wrapper from '../../layout/wrapper'
 function FirstBlock() {
 	const controls = useAnimation()
 	const [ref, inView] = useInView({
-		triggerOnce: true, 
-		threshold: 0.2, 
+		triggerOnce: true,
+		threshold: 0.2,
 	})
 
 	React.useEffect(() => {
@@ -45,7 +45,7 @@ function FirstBlock() {
 					/>
 				</motion.div>
 				<motion.div
-					className='w-full md:w-1/2 flex flex-col items-center md:items-start'
+					className='w-full md:w-1/2 flex flex-col items-start'
 					initial='hidden'
 					animate={controls}
 					variants={textVariants}
@@ -53,15 +53,15 @@ function FirstBlock() {
 					<img
 						src='/assets/logo.png'
 						alt='logo'
-						className='max-w-full w-full md:w-[550px] mb-8 md:mb-0'
+						className='w-[250px] md:w-[550px] mb-8 md:mb-0'
 					/>
 					<div className='border-t border-b border-black py-8 md:py-16 w-full'>
-						<h2 className='text-2xl md:text-4xl xl:w-[600px] tracking-wider md:tracking-[8px] text-center md:text-left'>
+						<h2 className='text-2xl md:text-4xl xl:w-[600px] tracking-wider md:tracking-[8px] text-left'>
 							THE NEW ATTRACTION POINT FOR FAMILIES WITH KIDS IN BALI
 						</h2>
 					</div>
-					<div className='flex justify-between flex-col lg:flex-row items-center w-full mt-4 md:mt-8'>
-						<p className='text-sm flex text-center md:text-start flex-col md:flex-row md:text-base tracking-[6px] uppercase '>
+					<div className='flex justify-between flex-col lg:flex-row w-full mt-4 md:mt-8'>
+						<p className='text-sm flex text-start flex-col md:flex-row md:text-base tracking-[6px] uppercase '>
 							<span className='md:border-r md:pr-[20px] md:border-r-black'>
 								indonesia
 							</span>

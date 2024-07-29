@@ -34,7 +34,7 @@ const EleventhBlock = () => {
 		<Wrapper>
 			<div className='font-Poppins relative mx-[20px] xl:mx-0'>
 				<motion.div
-					className='border-b border-b-black text-center'
+					className='border-b border-b-black text-start'
 					initial='hidden'
 					whileInView='visible'
 					variants={headingVariants}
@@ -44,7 +44,7 @@ const EleventhBlock = () => {
 					</h2>
 				</motion.div>
 				<motion.p
-					className='mx-auto text-center max-w-[380px] mt-[20px]'
+					className='mx-auto text-start max-w-[380px] mt-[20px]'
 					initial='hidden'
 					whileInView='visible'
 					variants={textVariants}
