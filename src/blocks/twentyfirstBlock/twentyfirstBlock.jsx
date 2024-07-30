@@ -48,4 +48,4 @@ function TwentyfirstBlock() {
 	)
 }
 
-export default TwentyfirstBlock
+export default React.memo(TwentyfirstBlock)

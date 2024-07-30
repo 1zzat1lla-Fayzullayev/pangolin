@@ -92,3 +92,15 @@
 		transform: rotate(360deg);
 	}
 }
+
+
+::-webkit-scrollbar{
+	width: 5px;
+	background-color: white;
+}
+
+::-webkit-scrollbar-thumb{
+	background-color: #A474A4;
+	height: 100px;
+	border-radius: 100px;
+}

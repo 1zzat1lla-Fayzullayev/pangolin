@@ -160,4 +160,4 @@ const NineteenthBlock = () => {
 	)
 }
 
-export default NineteenthBlock
+export default React.memo(NineteenthBlock)

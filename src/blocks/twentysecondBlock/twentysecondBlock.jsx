@@ -64,4 +64,4 @@ function TwentysecondBlock() {
 	)
 }
 
-export default TwentysecondBlock
+export default React.memo(TwentysecondBlock)

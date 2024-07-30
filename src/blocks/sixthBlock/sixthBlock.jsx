@@ -48,4 +48,4 @@ function SixthBlock() {
 	)
 }
 
-export default SixthBlock
+export default React.memo(SixthBlock)

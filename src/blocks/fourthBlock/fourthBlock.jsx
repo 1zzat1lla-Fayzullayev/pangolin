@@ -76,4 +76,4 @@ function FourthBlock() {
 	)
 }
 
-export default FourthBlock
+export default React.memo(FourthBlock)

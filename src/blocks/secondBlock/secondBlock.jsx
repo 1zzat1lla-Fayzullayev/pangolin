@@ -6,8 +6,8 @@ import Wrapper from '../../layout/wrapper'
 function SecondBlock() {
 	const controls = useAnimation()
 	const [ref, inView] = useInView({
-		triggerOnce: true, 
-		threshold: 0.2, 
+		triggerOnce: true,
+		threshold: 0.2,
 	})
 
 	React.useEffect(() => {
@@ -105,4 +105,4 @@ function SecondBlock() {
 	)
 }
 
-export default SecondBlock
+export default React.memo(SecondBlock)

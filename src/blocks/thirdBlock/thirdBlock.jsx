@@ -6,7 +6,7 @@ import Wrapper from '../../layout/wrapper'
 function ThirdBlock() {
 	const controls = useAnimation()
 	const [ref, inView] = useInView({
-		triggerOnce: true, 
+		triggerOnce: true,
 		threshold: 0.2,
 	})
 
@@ -45,4 +45,4 @@ function ThirdBlock() {
 	)
 }
 
-export default ThirdBlock
+export default React.memo(ThirdBlock)

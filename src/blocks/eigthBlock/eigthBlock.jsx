@@ -138,4 +138,4 @@ function EigthBlock() {
 	)
 }
 
-export default EigthBlock
+export default React.memo(EigthBlock)

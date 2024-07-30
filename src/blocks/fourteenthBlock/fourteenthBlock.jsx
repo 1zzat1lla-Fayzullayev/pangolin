@@ -93,4 +93,4 @@ const FourteenthBlock = () => {
 	)
 }
 
-export default FourteenthBlock
+export default React.memo(FourteenthBlock)

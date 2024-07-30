@@ -52,4 +52,4 @@ const FiveteenthBlock = () => {
 	)
 }
 
-export default FiveteenthBlock
+export default React.memo(FiveteenthBlock)

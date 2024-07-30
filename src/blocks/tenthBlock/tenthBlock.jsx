@@ -48,4 +48,4 @@ function TenthBlock() {
 	)
 }
 
-export default TenthBlock
+export default React.memo(TenthBlock)

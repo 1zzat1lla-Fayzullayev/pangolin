@@ -92,4 +92,4 @@ function FivethBlock() {
 	)
 }
 
-export default FivethBlock
+export default React.memo(FivethBlock)

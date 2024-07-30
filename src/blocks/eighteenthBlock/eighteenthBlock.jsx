@@ -48,4 +48,4 @@ function EighteenthBlock() {
 	)
 }
 
-export default EighteenthBlock
+export default React.memo(EighteenthBlock)

@@ -166,4 +166,4 @@ const TwentiethBlock = () => {
 	)
 }
 
-export default TwentiethBlock
+export default React.memo(TwentiethBlock)

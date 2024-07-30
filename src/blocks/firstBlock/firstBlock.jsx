@@ -80,4 +80,4 @@ function FirstBlock() {
 	)
 }
 
-export default FirstBlock
+export default React.memo(FirstBlock)

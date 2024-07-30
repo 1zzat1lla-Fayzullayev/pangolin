@@ -110,4 +110,4 @@ const TwelfthBlock = () => {
 	)
 }
 
-export default TwelfthBlock
+export default React.memo(TwelfthBlock)
