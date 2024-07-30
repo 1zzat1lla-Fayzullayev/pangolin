@@ -1,5 +1,5 @@
-import React, { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
+import React, { useRef } from 'react'
 import Wrapper from '../../layout/wrapper'
 
 // Define animation variants
@@ -23,9 +23,9 @@ const itemVariants = {
 	},
 }
 
-const NineteenthBlock = () => {
+const TwentiethBlock = () => {
 	const ref = useRef(null)
-	const inView = useInView(ref, { once: true })
+	const isInView = useInView(ref, { once: true })
 
 	return (
 		<Wrapper>
@@ -34,7 +34,7 @@ const NineteenthBlock = () => {
 				ref={ref}
 				variants={containerVariants}
 				initial='hidden'
-				animate={inView ? 'visible' : 'hidden'}
+				animate={isInView ? 'visible' : 'hidden'}
 			>
 				<div className='border-b border-b-black'>
 					<motion.h2
@@ -52,17 +52,17 @@ const NineteenthBlock = () => {
 						>
 							<div>
 								<img
-									src='/assets/nineteenth_1.png'
+									src='/assets/twentieth_1.png'
 									alt='block'
 									className='w-[70px] md:w-[100px]'
 								/>
 							</div>
 							<div className='flex flex-col items-start gap-[5px]'>
 								<h4 className='md:text-[19px] lg:text-[22px]'>
-									Avrg Revenue at Stable Stage
+									Current Project Value
 								</h4>
 								<p className='text-[16px] lg:text-[18px] text-[gray]'>
-									$2,128,632 per year
+									$4,000,000
 								</p>
 							</div>
 						</motion.div>
@@ -72,17 +72,17 @@ const NineteenthBlock = () => {
 						>
 							<div>
 								<img
-									src='/assets/nineteenth_2.png'
+									src='/assets/twentieth_2.png'
 									alt='block'
 									className='w-[70px] md:w-[100px]'
 								/>
 							</div>
 							<div className='flex flex-col items-start gap-[5px]'>
 								<h4 className='md:text-[19px] lg:text-[22px]'>
-									Operating Income (before tax)
+									Investment Size
 								</h4>
 								<p className='text-[16px] lg:text-[18px] text-[gray]'>
-									$774,633 per year
+									Up to $1,440,000
 								</p>
 							</div>
 						</motion.div>
@@ -92,14 +92,35 @@ const NineteenthBlock = () => {
 						>
 							<div>
 								<img
-									src='/assets/nineteenth_3.png'
+									src='/assets/twentieth_3.png'
 									alt='block'
 									className='w-[70px] md:w-[100px]'
 								/>
 							</div>
 							<div className='flex flex-col items-start gap-[5px]'>
 								<h4 className='md:text-[19px] lg:text-[22px]'>
-									12 months past launch till full load
+									Investment Ticket
+								</h4>
+								<p className='text-[16px] lg:text-[18px] text-[gray] max-[320px]:max-w-[200px] max-w-[250px] lg:max-w-[500px]'>
+									Seeking to attract up to $250 000 per investor Expected
+									participation 10% of the Villas investment amount
+								</p>
+							</div>
+						</motion.div>
+						<motion.div
+							className='flex items-center gap-[20px]'
+							variants={itemVariants}
+						>
+							<div>
+								<img
+									src='/assets/twentieth_4.png'
+									alt='block'
+									className='w-[70px] md:w-[100px]'
+								/>
+							</div>
+							<div className='flex flex-col items-start gap-[5px]'>
+								<h4 className='md:text-[19px] lg:text-[22px]'>
+									Expected running yield – 21.8%
 								</h4>
 								<p className='text-[16px] lg:text-[18px] text-[gray]'>
 									$2,128,632 per year
@@ -107,51 +128,36 @@ const NineteenthBlock = () => {
 							</div>
 						</motion.div>
 					</div>
-					<div className='flex gap-[20px] md:gap-[40px] mt-[40px] md:mt-0'>
-						<div>
-							<motion.img
-								src='/assets/nineteenth_4.jpg'
-								alt='404'
-								className='w-[30px]'
-								variants={itemVariants}
-							/>
+					<div className='flex flex-col gap-[20px] md:gap-[40px] mt-[40px] md:mt-0'>
+						<div className='bg-lightBlue h-[70px] text-center flex justify-center items-center text-[white] text-[20px]'>
+							SPECIAL TERMS & PREFERENCES
 						</div>
-						<div className='flex flex-col max-[320px]:gap-[35px] gap-[90px] md:gap-[55px]'>
-							<motion.div
-								className='max-w-[300px] flex flex-col gap-[5px]'
-								variants={itemVariants}
-							>
-								<h4 className='md:text-[19px] lg:text-[22px]'>
-									1 <sup>st</sup> year (starting Jan25)
-								</h4>
-								<p className='text-[16px] lg:text-[18px] text-[gray]'>
-									Operating income (before tax) $600,261 per year Profitability
-									36%
-								</p>
-							</motion.div>
-							<motion.div
-								className='max-w-[300px] flex flex-col gap-[5px]'
-								variants={itemVariants}
-							>
-								<h4 className='md:text-[19px] lg:text-[22px]'>
-									2 <sup>nd</sup> year
-								</h4>
-								<p className='text-[16px] lg:text-[18px] text-[gray]'>
-									Operating income (before tax) $774,633 per year Profitability
-									36%
-								</p>
-							</motion.div>
-							<motion.div
-								className='max-w-[300px] flex flex-col gap-[5px]'
-								variants={itemVariants}
-							>
-								<h4 className='md:text-[19px] lg:text-[22px]'>
-									5 <sup>th</sup> year / (stabilized CF)
-								</h4>
-								<p className='text-[16px] lg:text-[18px] text-[gray]'>
-									Full payback for Investor
-								</p>
-							</motion.div>
+						<div className='border border-[gray] pt-[10px] pb-[20px] px-[20px]'>
+							<div className='max-w-[400px] text-center'>
+								<motion.h2
+									className='font-medium text-[20px]'
+									variants={itemVariants}
+								>
+									Loss Protection
+								</motion.h2>
+								<motion.p variants={itemVariants}>
+									Guarantied 1 year term buyout after 1 year lockup period from
+									the project launch
+								</motion.p>
+							</div>
+							<div className='max-w-[400px] text-center pt-[20px]'>
+								<motion.h3
+									className='font-medium text-[20px]'
+									variants={itemVariants}
+								>
+									Dividends waterfall preference
+								</motion.h3>
+								<motion.p variants={itemVariants}>
+									15% hurdle rate for Investor Waterfall: 100% to LPs to extent
+									of hurdle rate Catch up: 0 : 100 LPs : GP, Finally: pro rata
+									to LPs and GP ownership
+								</motion.p>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -160,4 +166,4 @@ const NineteenthBlock = () => {
 	)
 }
 
-export default NineteenthBlock
+export default TwentiethBlock

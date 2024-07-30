@@ -53,7 +53,7 @@ function FirstBlock() {
 					<img
 						src='/assets/logo.png'
 						alt='logo'
-						className='w-[250px] md:w-[550px] mb-8 md:mb-0'
+						className='w-[250px] md:w-[400px] mb-8 md:mb-0'
 					/>
 					<div className='border-t border-b border-black py-8 md:py-16 w-full'>
 						<h2 className='text-2xl md:text-4xl xl:w-[600px] tracking-wider md:tracking-[8px] text-left'>
