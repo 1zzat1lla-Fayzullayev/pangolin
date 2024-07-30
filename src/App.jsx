@@ -22,6 +22,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import TwentiethBlock from './blocks/twentiethBlock/twentiethBlock'
 import TwentyfirstBlock from './blocks/twentyfirstBlock/twentyfirstBlock'
 import TwentysecondBlock from './blocks/twentysecondBlock/twentysecondBlock'
+import Footer from './blocks/footer/footer'
 
 function App() {
 	const [loading, setLoading] = useState(true)
@@ -107,6 +108,7 @@ function App() {
 			<TwentiethBlock />
 			<TwentyfirstBlock />
 			<TwentysecondBlock />
+			<Footer />
 		</>
 	)
 }
