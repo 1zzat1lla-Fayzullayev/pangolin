@@ -20,6 +20,8 @@ import EighteenthBlock from './blocks/eighteenthBlock/eighteenthBlock'
 import NinteenthBlock from './blocks/ninteenthBlock/ninteenthBlock'
 import { motion, AnimatePresence } from 'framer-motion'
 import TwentiethBlock from './blocks/twentiethBlock/twentiethBlock'
+import TwentyfirstBlock from './blocks/twentyfirstBlock/twentyfirstBlock'
+import TwentysecondBlock from './blocks/twentysecondBlock/twentysecondBlock'
 
 function App() {
 	const [loading, setLoading] = useState(true)
@@ -103,6 +105,8 @@ function App() {
 			<EighteenthBlock />
 			<NinteenthBlock />
 			<TwentiethBlock />
+			<TwentyfirstBlock />
+			<TwentysecondBlock />
 		</>
 	)
 }
