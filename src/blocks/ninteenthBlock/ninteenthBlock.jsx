@@ -101,9 +101,6 @@ const NineteenthBlock = () => {
 								<h4 className='md:text-[19px] lg:text-[22px]'>
 									12 months past launch till full load
 								</h4>
-								<p className='text-[16px] lg:text-[18px] text-[gray]'>
-									$2,128,632 per year
-								</p>
 							</div>
 						</motion.div>
 					</div>
